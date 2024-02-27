@@ -2,7 +2,7 @@ const Express = require("express");
 const bodyParser = require("body-parser");
 var admin = require("firebase-admin");
 
-//var serviceAccount = require("./reactnativepushapp-75f35-firebase-adminsdk-2vl1u-a9c47bf51b.json");
+//var serviceAccount = require("");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
